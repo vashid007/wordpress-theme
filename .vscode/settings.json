@@ -1,0 +1,47 @@
+{
+  "files.associations": {
+    "*.php": "php"
+  },
+  "intelephense.environment.includePaths": [
+    "vendor/wp-cli/wp-cli"
+  ],
+  "intelephense.stubs": [
+    "apache",
+    "bcmath",
+    "calendar",
+    "Core",
+    "curl",
+    "date",
+    "dom",
+    "filter",
+    "ftp",
+    "gd",
+    "hash",
+    "iconv",
+    "json",
+    "libxml",
+    "mbstring",
+    "mysqli",
+    "openssl",
+    "pcre",
+    "PDO",
+    "pdo_mysql",
+    "Phar",
+    "readline",
+    "Reflection",
+    "regex",
+    "session",
+    "SimpleXML",
+    "sockets",
+    "SPL",
+    "standard",
+    "superglobals",
+    "tokenizer",
+    "xml",
+    "xdebug",
+    "zip",
+    "zlib",
+    "wordpress"
+  ],
+  "editor.formatOnSave": true
+}

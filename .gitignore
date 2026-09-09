@@ -1,0 +1,33 @@
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Node & Composer (if added later)
+node_modules/
+vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+composer.phar
+
+# Build & Temp output
+dist/
+build/
+*.tmp
+*.log
+
+# Environment & Secrets
+.env
+.env.local
+ftp-credentials.json

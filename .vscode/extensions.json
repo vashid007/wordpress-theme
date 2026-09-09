@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "bmewburn.vscode-intelephense-client",
+    "xdebug.php-debug",
+    "johnillionis.vscode-wordpress-snippets",
+    "wordpresstools.wordpress-toolbox",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode"
+  ]
+}
