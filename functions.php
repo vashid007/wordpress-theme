@@ -54,8 +54,8 @@ function my_simple_theme_scripts() {
     // Enqueue main stylesheet
     wp_enqueue_style( 'my-simple-theme-style', get_stylesheet_uri(), array(), '1.0.0' );
 
-    // Enqueue Portfolio CSS if homepage or portfolio template
-    if ( is_front_page() || is_home() || is_page_template( 'front-page.php' ) || is_page_template( 'home.php' ) ) {
+    // Enqueue Portfolio CSS if homepage, frontpage, or about page template
+    if ( is_front_page() || is_home() || is_page_template( 'front-page.php' ) || is_page_template( 'home.php' ) || is_page_template( 'about.php' ) ) {
         wp_enqueue_style( 'my-simple-theme-portfolio', get_template_directory_uri() . '/assets/css/portfolio.css', array(), '1.0.0' );
     }
 
