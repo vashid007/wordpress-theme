@@ -47,13 +47,14 @@ a:hover {
 
 /* Site Header */
 .site-header {
-    background: #ffffff;
-    border-bottom: 1px solid #e5e7eb;
+    background: rgba(15, 23, 42, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1.25rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
 }
 
 .site-header .container {
@@ -68,12 +69,12 @@ a:hover {
 }
 
 .site-title a {
-    color: #111827;
+    color: #f8fafc;
 }
 
 .site-description {
     font-size: 0.875rem;
-    color: #6b7280;
+    color: #94a3b8;
 }
 
 /* Navigation */
@@ -84,13 +85,14 @@ a:hover {
 }
 
 .main-navigation a {
-    color: #374151;
+    color: #cbd5e1;
     font-weight: 500;
     font-size: 0.95rem;
+    transition: color 0.2s ease;
 }
 
 .main-navigation a:hover {
-    color: #2563eb;
+    color: #38bdf8;
 }
 
 /* Main Content */
